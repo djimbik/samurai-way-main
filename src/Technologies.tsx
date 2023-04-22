@@ -9,6 +9,7 @@ const Technologies = () => {
                 <li>JS</li>
                 <li>React</li>
                 <li>NodeJS</li>
+                <li>NodeJS Advanced</li>
             </ul>
         </div>
     )
