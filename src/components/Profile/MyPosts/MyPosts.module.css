@@ -5,3 +5,19 @@
 .posts {
     margin-top: 20px;
 }
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #6ab7ff;
+    box-shadow: 2px 2px 5px rgba(106, 183, 255, 0.5);
+}
