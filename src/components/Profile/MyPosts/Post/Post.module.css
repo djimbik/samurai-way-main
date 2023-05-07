@@ -1,10 +1,36 @@
-
 .item {
-    color: greenyellow;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.item img {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
+.avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.message {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-right: 20px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.likesIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.likesCount {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #999;
 }
